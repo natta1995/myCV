@@ -16,24 +16,22 @@ const content = {
     skillsTitle: "Skills",
     experience: [
       {
-        title: "Frontend utvecklare",
+        title: "Frontend utvecklare intern",
+        place: "Senssera AB",
         period: "nov 2023 - maj 2024",
-        text: "Byggde ett responsivt gränssnitt i React med TypeScript och komponentbaserad struktur."
+        text: "Byggde en responsiv gränssnitt i React med TypeScript och komponentbaserad struktur."
       },
-      {
-        title: "Intern demo-app (dummy)",
-        period: "2023",
-        text: "En liten fullstack-liknande lösning med React frontend och Node.js-API."
-      }
     ],
     education: [
       {
-        title: "Frontendutvecklare inriktning webbsäkerhet (examaminerad)",
+        title: "Frontendutvecklare med inriktning webbsäkerhet (examaminerad)",
+        place: "Jensen Yrkeshögskola",
         period: "2022 – 2024",
         text: "Fokus på moderna webbtekniker, UI och säkerhet."
       },
       {
-        title: "Backendutvecklare med inriktning cloud",
+        title: "Backendutvecklare med inriktning cloud (pågående)",
+        place: "NBI Handelsakademi",
         period: "2025 – 2027",
         text: "Pågående studier för att komplettera med backend, C#/.NET, databaser och moln."
       }
@@ -53,7 +51,7 @@ const content = {
   },
   en: {
     role: "Frontend Graduate – currently studying Backend → towards Fullstack & IT Consulting",
-    location: "Stockholm, Sweden",
+    location: "Sweden",
     profileTitle: "Profile",
     profileText:
       "Structured and solution-oriented developer who enjoys breaking problems into small parts and building usable, secure web interfaces. Background in frontend with a focus on web security, now adding backend and cloud to move towards fullstack.",
@@ -64,24 +62,22 @@ const content = {
     skillsTitle: "Skills",
     experience: [
       {
-        title: "Frontend / UI project (dummy)",
-        period: "2024",
+        title: "Frontend developer intern",
+        place: "Senssera AB",
+        period: "nov 2023 - maj 2024",
         text: "Built a responsive interface in React with TypeScript and component-based structure."
       },
-      {
-        title: "Internal demo app (dummy)",
-        period: "2023",
-        text: "Small demo with React frontend and Node.js API."
-      }
     ],
     education: [
       {
-        title: "Frontend Developer focused on web security (completed)",
+        title: "Frontend Developer focused on web security (graduated)",
+        place: "Jensen Yrkeshögskola Gothenburg",
         period: "2022 – 2024",
         text: "Modern web technologies, UI and security."
       },
       {
         title: "Backend Developer with cloud specialization",
+        place: "NBI Handelsakademi Gothenburg",
         period: "2025 – 2027",
         text: "Ongoing studies to add backend, C#/.NET, databases and cloud."
       }
@@ -161,6 +157,11 @@ export default function App() {
               <li>SQL</li>
               <li>Node.js</li>
               <li>C# / .NET</li>
+              <li>HTML & CSS</li>
+              <li>Git</li>
+              <li>Web Security</li>
+              <li>Agile</li>
+              <li>Problemsolving</li>
             </ul>
           </div>
         </aside>
@@ -179,6 +180,7 @@ export default function App() {
                   <h3>{exp.title}</h3>
                   <span>{exp.period}</span>
                 </div>
+                <p>{exp.place}</p>
                 <p>{exp.text}</p>
               </div>
             ))}
@@ -192,6 +194,7 @@ export default function App() {
                   <h3>{edu.title}</h3>
                   <span>{edu.period}</span>
                 </div>
+                <p>{edu.place}</p>
                 <p>{edu.text}</p>
               </div>
             ))}
