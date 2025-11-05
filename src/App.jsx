@@ -9,7 +9,7 @@ const content = {
     location: "Sverige",
     profileTitle: "Profil",
     profileText:
-      "Strukturerad och lösningsorienterad utvecklare med frontendbakgrund och intresse för webbsäkerhet. Gillar att dela upp problem i mindre delar och bygga gränssnitt som känns lätta att använda. Läser nu backend/C#/.NET för att kunna ta mer fullstackansvar.",
+      "Jag älskar att lösa problem, lära mig nya saker och förbättra det jag gör. Oavsett om det handlar om att bygga ett gränssnitt eller virka en minion på frihand, så tycker jag om att förstå hur saker hänger ihop och hitta mitt eget sätt att få det att fungera. För mig handlar utveckling om att bryta ner, testa, bygga upp och alltid lära sig något på vägen.",
     experienceTitle: "Erfarenhet",
     educationTitle: "Utbildning",
     projectsTitle: "Projekt",
@@ -18,7 +18,7 @@ const content = {
     experience: [
       {
         title: "Frontend-utvecklare (intern)",
-        place: "Senssera AB",
+        place: "Sensera AB",
         period: "nov 2023 – maj 2024",
         text: "Byggde responsiva vyer i React med TypeScript och komponentbaserad struktur. Fokus på konsekvent UI."
       },
@@ -74,7 +74,7 @@ const content = {
     location: "Sweden",
     profileTitle: "Profile",
     profileText:
-      "Structured, solution-oriented developer with a frontend background and interest in web security. I like breaking problems into smaller parts and designing UIs that feel easy to use. Currently studying backend/C#/.NET to move towards fullstack.",
+      "I love solving problems, learning new things, and improving what I do. Whether it’s building a user interface or crocheting a minion from scratch, I enjoy understanding how things fit together and finding my own way to make them work. For me, development is about breaking things down, experimenting, building them back up, and always learning something along the way..",
     experienceTitle: "Experience",
     educationTitle: "Education",
     projectsTitle: "Projects",
@@ -83,7 +83,7 @@ const content = {
     experience: [
       {
         title: "Frontend Developer (intern)",
-        place: "Senssera AB",
+        place: "Sensera AB",
         period: "Nov 2023 – May 2024",
         text: "Built responsive views in React with TypeScript and a component-based structure. Focus on consistent UI."
       },
