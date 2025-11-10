@@ -11,6 +11,9 @@ const content = {
     projectsTitle: "Projekt",
     contactTitle: "Kontakt",
     skillsTitle: "Teknik & kompetenser",
+    languageTitle: "Språk",
+    lang1: "Svenska - Modersmål",
+    lang2: "Engelska - Goda kunskaper",
     experience: [
       {
         title: "Frontend utvecklare (intern)",
@@ -76,6 +79,9 @@ const content = {
     projectsTitle: "Projects",
     contactTitle: "Contact",
     skillsTitle: "Tech & skills",
+    languageTitle: "Languages",
+    lang1: "Swedish - Native",
+    lang2: "English - Good knowledge of",
     experience: [
       {
         title: "Frontend Developer (intern)",

@@ -58,6 +58,12 @@ export default function App() {
               ))}
             </ul>
           </div>
+
+          <div className="section">
+            <h2>{t.languageTitle}</h2>
+            <p>{t.lang1}</p>
+            <p>{t.lang2}</p>
+          </div>
         </aside>
 
         {/* MAIN CONTENT */}
@@ -95,7 +101,8 @@ export default function App() {
             ))}
           </section>
 
-          <section className="card">
+
+          {/* <section className="card">
             <h2>{t.projectsTitle}</h2>
             <div className="projects">
               {t.projects.map((p, i) => (
@@ -108,7 +115,7 @@ export default function App() {
                 </article>
               ))}
             </div>
-          </section>
+          </section> */}
         </main>
       </div>
     </div>
