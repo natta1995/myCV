@@ -2,6 +2,7 @@
 import { useState } from "react";
 import {content} from "./content/content.js";
 import "./App.css";
+import profilbild1 from "./img/profilbild1.jpg";
 
 
 export default function App() {
@@ -30,7 +31,7 @@ export default function App() {
         <aside className="sidebar">
           <div className="photo-wrapper">
             <img
-              src="../img/profilbild1.jpg"
+              src={profilbild1}
               alt={t.name}
               className="photo"
             />
