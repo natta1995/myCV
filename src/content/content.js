@@ -30,7 +30,7 @@ const content = {
         text: "Moderna webbtekniker, UI och säkerhet."
       },
       {
-        title: "Backendutvecklare med inriktning Cloud (pågående)",
+        title: "Backendutvecklare med inriktning Cloud (Pågående)",
         place: "NBI Handelsakademin",
         period: "2025 – 2027",
         text: "C#/.NET, databaser och moln."
