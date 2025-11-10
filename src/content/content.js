@@ -1,7 +1,7 @@
 const content = {
   sv: {
     name: "Natalie Hällerdal",
-    role: "Frontendutvecklare – bygger tydliga och användbara gränssnitt",
+    role: "Frontendutbildad, studerar för närvarande backend → På väg mot fullstack och IT-konsulting",
     location: "Sverige",
     profileTitle: "Profil",
     profileText:
@@ -10,10 +10,10 @@ const content = {
     educationTitle: "Utbildning",
     projectsTitle: "Projekt",
     contactTitle: "Kontakt",
-    skillsTitle: "Tech & skills",
+    skillsTitle: "Teknik & kompetenser",
     experience: [
       {
-        title: "Frontend-utvecklare (intern)",
+        title: "Frontend utvecklare (intern)",
         place: "Sensera AB",
         period: "nov 2023 – maj 2024",
         text: "Byggde responsiva vyer i React med TypeScript och komponentbaserad struktur. Fokus på konsekvent UI."
@@ -21,16 +21,16 @@ const content = {
     ],
     education: [
       {
-        title: "Frontendutvecklare, inriktning webbsäkerhet",
+        title: "Frontendutvecklare, inriktning webbsäkerhet (Examinerad)",
         place: "Jensen Yrkeshögskola",
         period: "2022 – 2024",
         text: "Moderna webbtekniker, UI och säkerhet."
       },
       {
-        title: "Backendutvecklare med inriktning cloud (pågående)",
+        title: "Backendutvecklare med inriktning Cloud (pågående)",
         place: "NBI Handelsakademin",
         period: "2025 – 2027",
-        text: "C#/.NET, databaser och moln för att bli mer fullstack."
+        text: "C#/.NET, databaser och moln."
       }
     ],
     projects: [
@@ -66,11 +66,11 @@ const content = {
   },
   en: {
     name: "Natalie Hällerdal",
-    role: "Frontend Developer – building clear and usable interfaces",
+    role: "Frontend Graduate, currently studying Backend → Towards Fullstack & IT Consulting",
     location: "Sweden",
     profileTitle: "Profile",
     profileText:
-      "I love solving problems, learning new things, and improving what I do. Whether it’s building a user interface or crocheting a minion from scratch, I enjoy understanding how things fit together and finding my own way to make them work. For me, development is about breaking things down, experimenting, building them back up, and always learning something along the way..",
+      "I love solving problems, learning new things, and improving what I do. Whether it’s building a user interface or crocheting a minion from scratch, I enjoy understanding how things fit together and finding my own way to make them work. For me, development is about breaking things down, experimenting, building them back up, and always learning something along the way.",
     experienceTitle: "Experience",
     educationTitle: "Education",
     projectsTitle: "Projects",
@@ -86,13 +86,13 @@ const content = {
     ],
     education: [
       {
-        title: "Frontend Developer, web security",
+        title: "Frontend Developer, web security (Graduated)",
         place: "Jensen Vocational College",
         period: "2022 – 2024",
         text: "Modern web technologies, UI and security."
       },
       {
-        title: "Backend Developer, cloud (ongoing)",
+        title: "Backend Developer, cloud (Ongoing)",
         place: "NBI Handelsakademin",
         period: "2025 – 2027",
         text: "C#/.NET, databases and cloud to become more fullstack."
