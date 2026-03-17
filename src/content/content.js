@@ -23,18 +23,19 @@ const content = {
       },
     ],
     education: [
+         {
+        title: "Backendutvecklare med inriktning Cloud (Pågående)",
+        place: "NBI Handelsakademin",
+        period: "2025 – 2027",
+        text: "C#/.NET, databaser och moln."
+      },
       {
+      
         title: "Frontendutvecklare, inriktning webbsäkerhet (Examinerad)",
         place: "Jensen Yrkeshögskola",
         period: "2022 – 2024",
         text: "Moderna webbtekniker, UI och säkerhet."
       },
-      {
-        title: "Backendutvecklare med inriktning Cloud (Pågående)",
-        place: "NBI Handelsakademin",
-        period: "2025 – 2027",
-        text: "C#/.NET, databaser och moln."
-      }
     ],
     projects: [
       {
@@ -92,17 +93,18 @@ const content = {
     ],
     education: [
       {
-        title: "Frontend Developer, web security (Graduated)",
-        place: "Jensen Vocational College",
-        period: "2022 – 2024",
-        text: "Modern web technologies, UI and security."
-      },
-      {
         title: "Backend Developer, cloud (Ongoing)",
         place: "NBI Handelsakademin",
         period: "2025 – 2027",
         text: "C#/.NET, databases and cloud to become more fullstack."
+      },
+      {
+        title: "Frontend Developer, web security (Graduated)",
+        place: "Jensen Vocational College",
+        period: "2022 – 2024",
+        text: "Modern web technologies, UI and security."
       }
+      
     ],
     projects: [
       {

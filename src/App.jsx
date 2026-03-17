@@ -74,19 +74,7 @@ export default function App() {
             <p>{t.profileText}</p>
           </section>
 
-          <section className="card">
-            <h2>{t.experienceTitle}</h2>
-            {t.experience.map((exp, i) => (
-              <div key={i} className="item">
-                <div className="item-head">
-                  <h3>{exp.title}</h3>
-                  <span>{exp.period}</span>
-                </div>
-                <p>{exp.place}</p>
-                <p>{exp.text}</p>
-              </div>
-            ))}
-          </section>
+    
 
           <section className="card">
             <h2>{t.educationTitle}</h2>
@@ -98,6 +86,20 @@ export default function App() {
                 </div>
                 <p>{edu.place}</p>
                 <p>{edu.text}</p>
+              </div>
+            ))}
+          </section>
+
+                <section className="card">
+            <h2>{t.experienceTitle}</h2>
+            {t.experience.map((exp, i) => (
+              <div key={i} className="item">
+                <div className="item-head">
+                  <h3>{exp.title}</h3>
+                  <span>{exp.period}</span>
+                </div>
+                <p>{exp.place}</p>
+                <p>{exp.text}</p>
               </div>
             ))}
           </section>
