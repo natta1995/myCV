@@ -39,13 +39,13 @@ const content = {
     ],
     projects: [
       {
-        title: "React-komponentbibliotek (dummy)",
-        text: "Återanvändbara UI-komponenter med konsekvent styling.",
+        title: "DearFriends - Fullstack application",
+        text: "Facebook-inspired social media app built with React, Node.js, and SQL.",
         link: "https://github.com/natta1995"
       },
       {
-        title: "Fullstack-demo (dummy)",
-        text: "React-frontend tillsammans med enkel Node.js/SQL-backend.",
+        title: "Konsollspel - DetectiveQuest",
+        text: "Textbaserat detektivspel i C# där spelaren löser mysterier genom att samla ledtrådar och göra val.",
         link: "https://github.com/natta1995"
       }
     ],
@@ -107,16 +107,16 @@ const content = {
       
     ],
     projects: [
-      {
-        title: "React component library (dummy)",
-        text: "Reusable UI components with consistent styling.",
-        link: "https://github.com/natta1995"
-      },
-      {
-        title: "Fullstack demo (dummy)",
-        text: "React frontend + simple Node.js/SQL backend.",
-        link: "https://github.com/natta1995"
-      }
+    {
+      title: "DearFriends - Fullstack Application",
+      text: "A Facebook-inspired social media application built with React, Node.js, and SQL.",
+      link: "https://github.com/natta1995"
+    },
+    {
+      title: "Console Game - DetectiveQuest",
+      text: "A text-based detective game built in C#, where the player solves mysteries by collecting clues and making decisions.",
+      link: "https://github.com/natta1995"
+    }
     ],
     contact: {
       email: "mailto:natalie.hallerdal@yahoo.se",

@@ -51,6 +51,13 @@ export default function App() {
             </div>
           </div>
 
+            <div className="section">
+            
+            <div className="contact-list">
+             <p>Portfolio</p>
+            </div>
+          </div>
+
           <div className="section">
             <h2>{t.skillsTitle}</h2>
             <ul className="chips">
@@ -105,7 +112,7 @@ export default function App() {
           </section>
 
 
-          {/* <section className="card">
+          { <section className="card">
             <h2>{t.projectsTitle}</h2>
             <div className="projects">
               {t.projects.map((p, i) => (
@@ -118,7 +125,7 @@ export default function App() {
                 </article>
               ))}
             </div>
-          </section> */}
+          </section> }
         </main>
       </div>
     </div>
