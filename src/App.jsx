@@ -120,7 +120,7 @@ export default function App() {
                   <h3>{p.title}</h3>
                   <p>{p.text}</p>
                   <a href={p.link} target="_blank" rel="noreferrer">
-                    GitHub →
+                    New Window →
                   </a>
                 </article>
               ))}

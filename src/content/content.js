@@ -38,16 +38,11 @@ const content = {
       },
     ],
     projects: [
-      {
-        title: "DearFriends - Fullstack application",
-        text: "Facebook-inspired social media app built with React, Node.js, and SQL.",
-        link: "https://github.com/natta1995"
-      },
-      {
-        title: "Konsollspel - DetectiveQuest",
-        text: "Textbaserat detektivspel i C# där spelaren löser mysterier genom att samla ledtrådar och göra val.",
-        link: "https://github.com/natta1995"
-      }
+       {
+      title: "Besök min portfolio",
+      text: "Få en breadare bild av mina projekt och erfarenheter på min portfolio.",
+      link: "https://natta1995.github.io/my-portfoilio/"
+    }
     ],
     contact: {
       email: "mailto:natalie.hallerdal@yahoo.se",
@@ -107,15 +102,10 @@ const content = {
       
     ],
     projects: [
-    {
-      title: "DearFriends - Fullstack Application",
-      text: "A Facebook-inspired social media application built with React, Node.js, and SQL.",
-      link: "https://github.com/natta1995"
-    },
-    {
-      title: "Console Game - DetectiveQuest",
-      text: "A text-based detective game built in C#, where the player solves mysteries by collecting clues and making decisions.",
-      link: "https://github.com/natta1995"
+   {
+      title: "Explore my portfolio",
+      text: "Take a closer look at my projects and experience in my portfolio.",
+      link: "https://natta1995.github.io/my-portfoilio/"
     }
     ],
     contact: {
